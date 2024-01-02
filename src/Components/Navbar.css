@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    border-bottom: 3px solid black ;
   }
   
   .navbar-container {
@@ -68,7 +69,10 @@
   }
   
   .fa-bars {
-    color: #fff;
+    color: #9a9a9a;
+  }
+  .fa-bars:hover{
+    color: #c0c0c0;
   }
   
   .nav-links-mobile {
@@ -78,6 +82,14 @@
   
   .menu-icon {
     display: none;
+  }
+
+  .quote-btn{
+    background-color: aqua;
+  }
+  .logo{
+    
+    height:3.5rem;
   }
 
   @media (min-width: 960px){
@@ -123,9 +135,11 @@
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
-      background-color: rgb(172, 144, 82);
+      
+      background: linear-gradient(90deg, rgb(45, 43, 40) 0%, rgb(70, 70, 70) 100%);
       
     }
+    
   
     .nav-links {
       text-align: center;
@@ -186,6 +200,11 @@
       color: #242424;
       transition: 250ms;
     }
-
+    .logo{
+      position: relative;
+      bottom: 18px;
+      height:3.5rem;
+      
+    }
     
   }
