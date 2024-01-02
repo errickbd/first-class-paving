@@ -44,15 +44,21 @@ function HeroSection() {
                         </p>
                     </div>   
                </div>
+            </div>
+            <div className='home-section-services'>
+                
+
                 
             </div>
+
+         </div>
             
             
             
             
             
             
-        </div>
+        
         
     )
 }

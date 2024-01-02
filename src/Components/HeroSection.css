@@ -107,10 +107,12 @@ span{
 .home-logo{
     position: relative;
     width:500px;
-    top: 60px;
+    top: 70px;
     border: 10px solid black;
-    left: 50px;
+    left: 55px;
 }
+
+
 .home-section01{
     display: flex;
     flex-direction: row;
@@ -119,7 +121,7 @@ span{
 }
 .home-info{
     position: relative;
-    right: 100px;
+    right: 105px;
     
 }
 
