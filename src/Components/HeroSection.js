@@ -17,6 +17,7 @@ function HeroSection() {
                     <span>Phone:</span> 123.456.7890
                     </p>
                 </div>
+                <hr/>
                 
                 <div className='hero-banner-right'>
                     <h1>FIRST CLASS PAVING</h1>

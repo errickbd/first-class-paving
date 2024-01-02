@@ -128,6 +128,15 @@ span{
 
 
 @media screen and (max-width: 960px) {
+    video{
+        object-fit: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+        
+    
+    }
     
     .hero-banner-right{
         padding-right: 15px;
