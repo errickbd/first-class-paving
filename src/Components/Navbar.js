@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
+import Logo from '../FCPLogo.jpg'
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -8,6 +9,8 @@ function Navbar() {
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+
+  
 
     const showButton = () => {
         if (window.innerWidth <= 960){
@@ -29,7 +32,8 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-                        LOGO <i className="fab fa-typo3"></i>
+                        {/* LOGO <i className="fab fa-typo3"></i>  */}
+                        <img src={Logo} className='logo'/>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>

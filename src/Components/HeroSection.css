@@ -50,7 +50,7 @@ video{
 }
 
 .hero-banner-right > h1 {
-    color: rgb(240, 240, 240);
+    color: rgb(243, 243, 243);
     font-size: 85px;
     
 }
@@ -64,14 +64,146 @@ video{
 .hero-btns{
     border: 2px solid rgb(176, 176, 176);
 }
+span{
+    color: rgb(251, 211, 124);
+}
+.about-gist{
+    position: relative;
+    width: 500px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(78, 78, 78) 100%);
+    color: white;
+    padding: 25px;
+    border: 5px solid rgb(99, 99, 99);
+    
+    top: 70px;
+    margin-bottom: 35px;
+}
 
 
+.services-gist{
+    position: relative;
+    width: 500px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(78, 78, 78) 100%);
+    color: white;
+    padding: 25px;
+    border: 5px solid rgb(99, 99, 99);
+    left: 20%;
+    top: 70px;
+    margin-bottom: 35px;
+}
+.testimonials-gist{
+    position: relative;
+    width: 500px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(78, 78, 78) 100%);
+    color: white;
+    padding: 25px;
+    border: 5px solid rgb(99, 99, 99);
+    
+    top: 70px;
+}
+.home-logo{
+    position: relative;
+    width:500px;
+    top: 60px;
+    border: 10px solid black;
+    left: 50px;
+}
+.home-section01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-info{
+    position: relative;
+    right: 100px;
+    
+}
 
 
 
 @media screen and (max-width: 960px) {
-    h1{
-        color: red;
+    .hero-banner-right{
+        padding-right: 15px;
     }
+    .hero-banner-right > h1{
+        color: rgb(240, 240, 240);
+        text-align: center;
+        font-size: 50px;
+        color: rgb(240, 240, 240);
+    }
+    .hero-banner-right > p{
+        text-align: center;
+        padding-bottom: 1px;
+    }
+    .hero-banner-left{
+        padding-right: 15px;
+    }
+    .hero-banner-left > p{
+        font-size: 20px;
+    }
+    span{
+        color: rgb(251, 211, 124);
+    }
+    .hero-btns{
+        border: 2px solid rgb(81, 81, 81);
+        color: white;
+        text-align: center;
+        
+    }
+
+    .about-gist{
+        position: relative;
+        width: 500px;
+        text-align: center;
+        background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(78, 78, 78) 100%);
+        color: white;
+        padding: 25px;
+        border: 5px solid rgb(99, 99, 99);
+        left: 10%;
+        top: 70px;
+        margin-bottom: 35px;
+    }
+    
+    .services-gist{
+        position: relative;
+        width: 500px;
+        text-align: center;
+        background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(78, 78, 78) 100%);
+        color: white;
+        padding: 25px;
+        border: 5px solid rgb(99, 99, 99);
+        left: 10%;
+        top: 70px;
+        margin-bottom: 35px;
+    }
+    .testimonials-gist{
+        position: relative;
+        width: 500px;
+        text-align: center;
+        background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(78, 78, 78) 100%);
+        color: white;
+        padding: 25px;
+        border: 5px solid rgb(99, 99, 99);
+        left: 10%;
+        top: 70px;
+    }
+    .home-section01{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        right: 5%;
+    }
+    .home-info{
+        position: relative;
+        right: 1px;
+        
+    }
+
 }
 
