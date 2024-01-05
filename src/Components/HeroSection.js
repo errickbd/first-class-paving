@@ -28,7 +28,7 @@ function HeroSection() {
                 </div>
             </div>
             <div className='home-section01'>
-               <img src={Logo} className='home-logo' />
+               <img src={Logo} className='home-logo' alt='First Class Paving Logo'/>
                <div className='home-info'>
                     <div className='about-gist'>
                         <h1><span>First Class Guarantee</span></h1>
