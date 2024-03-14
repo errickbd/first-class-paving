@@ -8,7 +8,7 @@ import Logo from '../FCPLogo.jpg'
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='videos/construction01.mp4' autoPlay loop muted />
+            <video src='public/videos/construction01.mp4' autoPlay loop muted />
             <div className='hero-banner'>
                 <div className='hero-banner-left'>
                     <p><span>Hours:</span> <br />
