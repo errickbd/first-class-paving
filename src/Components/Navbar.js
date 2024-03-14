@@ -9,8 +9,8 @@ function Navbar() {
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+ 
 
-  
 
     const showButton = () => {
         if (window.innerWidth <= 960){
