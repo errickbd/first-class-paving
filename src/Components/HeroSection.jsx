@@ -3,12 +3,13 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 import Logo from '../FCPLogo.jpg'
+import videoBg from '../videos/construction01.mp4'
 
 
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='public/videos/construction01.mp4' autoPlay loop muted />
+            <video src={videoBg} autoPlay loop muted />
             <div className='hero-banner'>
                 <div className='hero-banner-left'>
                     <p><span>Hours:</span> <br />
