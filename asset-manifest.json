@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/first-class-paving/static/css/main.c18ca24f.css",
-    "main.js": "/first-class-paving/static/js/main.57ffafa4.js",
+    "main.js": "/first-class-paving/static/js/main.5cf9393f.js",
+    "static/media/construction01.mp4": "/first-class-paving/static/media/construction01.505288c9e26891872fa0.mp4",
     "static/media/FCPLogo.jpg": "/first-class-paving/static/media/FCPLogo.e42260aa7076e810c7cd.jpg",
     "index.html": "/first-class-paving/index.html",
     "main.c18ca24f.css.map": "/first-class-paving/static/css/main.c18ca24f.css.map",
-    "main.57ffafa4.js.map": "/first-class-paving/static/js/main.57ffafa4.js.map"
+    "main.5cf9393f.js.map": "/first-class-paving/static/js/main.5cf9393f.js.map"
   },
   "entrypoints": [
     "static/css/main.c18ca24f.css",
-    "static/js/main.57ffafa4.js"
+    "static/js/main.5cf9393f.js"
   ]
 }
