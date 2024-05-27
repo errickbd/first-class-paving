@@ -2,8 +2,8 @@ import React from "react";
 import '../../App.css';
 import './Services.css'
 import asphalt02 from "../../photos/asphalt02.jpeg"
-import asphalt04 from "../../photos/asphalt04.jpeg"
-import concrete03 from '../../photos/concrete03.jpeg'
+// import asphalt04 from "../../photos/asphalt04.jpeg"
+// import concrete03 from '../../photos/concrete03.jpeg'
 import { useState } from "react";
 import axios from "axios";
 

@@ -3,7 +3,7 @@ import "./About.css"
 import photo01 from '../../photos/driveway01.jpeg'
 import { useState } from "react";
 import axios from "axios";
-import { EmailJSResponseStatus } from "@emailjs/browser";
+// import { EmailJSResponseStatus } from "@emailjs/browser";
 
 
 

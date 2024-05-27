@@ -1,8 +1,8 @@
 import React from "react";
 import '../../App.css';
 import './Gallery.css'
-import asphalt05 from '../../photos/asphalt05.jpeg'
-import asphalt06 from '../../photos/asphalt06.jpeg'
+// import asphalt05 from '../../photos/asphalt05.jpeg'
+// import asphalt06 from '../../photos/asphalt06.jpeg'
 import ReactImageGallery from "react-image-gallery";
 import 'react-image-gallery/styles/css/image-gallery.css'
 import axios from "axios";
