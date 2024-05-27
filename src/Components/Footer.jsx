@@ -77,7 +77,7 @@ function Footer(){
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2 className="h2-footer">Navigation</h2>
-                        <Link to='/'>Home</Link>
+                        <Link to='/first-class-paving'>Home</Link>
                         <Link to='/about'>About</Link>
                         <Link to='/services'>Services</Link>
                         <Link to='/gallery'>Gallery</Link>
@@ -98,7 +98,7 @@ function Footer(){
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="footer-logo">
-                        <Link to='/' className="social-logo">
+                        <Link to='/first-class-paving' className="social-logo">
                             <img src={Logo} className='logo' alt='First Class Paving Logo'/>
                         </Link>
                     </div>

@@ -34,7 +34,7 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to="/first-class-paving" className='navbar-logo' onClick={closeMobileMenu}>
                         <img src={Logo} className='logo' alt='First Class Paving Logo'/>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
