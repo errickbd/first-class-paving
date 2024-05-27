@@ -182,8 +182,11 @@
         font-size: smaller;
         width:100%;
         position: relative;
+        right:35px;
         margin-left: 80px;
         margin-top: 55px;
+        
+        
         
         
         
@@ -196,6 +199,8 @@
     }
     .footer-link-wrapper{
         flex-direction: column;
+        /* position: relative;
+        right: 500px */
         
     }
     .social-media-wrap{
@@ -218,5 +223,9 @@
     .footer-link-items2{
         position: relative;
         right: 30px;
+    }
+    .footer-subscription{
+        position: relative;
+        left: 75px;
     }
 }
