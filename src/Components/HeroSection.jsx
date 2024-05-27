@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
@@ -13,9 +14,9 @@ function HeroSection() {
             <div className='hero-banner'>
                 <div className='hero-banner-left'>
                     <p><span>Hours:</span> <br />
-                    Mon-Fri 8am-6pm | Sat 8am-12pm | Sun Appt. Only <br />
-                    <span>Email:</span> youremail@gmail.com <br />
-                    <span>Phone:</span> 123.456.7890
+                    Mon-Fri 9am-5pm | Sat Closed | Sun Closed <br />
+                    <span>Email:</span> <br /> firstclasspaving.lakecounty@yahoo.com <br />
+                    <span>Phone:</span> <br /> (847) 815-2326
                     </p>
                 </div>
                 
@@ -24,7 +25,7 @@ function HeroSection() {
                     <h1>FIRST CLASS PAVING</h1>
                     <p>Let's start your project!</p>
                     <div className='hero-btns'>
-                        <Button className='btns' buttonstyle='btn--outline' buttonSize='btn--large'>View Services</Button>
+                        <Button className='btns service-btn' buttonstyle='btn--outline' buttonSize='btn--large'>Get Quote</Button>
                     </div> 
                 </div>
             </div>
@@ -41,8 +42,8 @@ function HeroSection() {
                     </div>
                     <div className='testimonials-gist'>
                         <h1><span>Our Client Says</span></h1>
-                        <p>"Best company in the area. 10/10 Recommended" <br />
-                        -John Doe
+                        <p>"Best company in the area. Definitely would Recommend" <br />
+                        -Anonymous
                         </p>
                     </div>   
                </div>

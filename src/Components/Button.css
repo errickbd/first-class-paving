@@ -8,6 +8,8 @@
     outline: none;
     border: none;
     cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+    color: #0cc3d0;
 }
 
 .btn--primary{

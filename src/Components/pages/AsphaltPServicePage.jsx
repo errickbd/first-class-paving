@@ -1,13 +1,12 @@
 import React from "react";
 import '../../App.css';
-import './Services.css'
-import asphalt02 from "../../photos/asphalt02.jpeg"
-import asphalt04 from "../../photos/asphalt04.jpeg"
-import concrete03 from '../../photos/concrete03.jpeg'
-import { useState } from "react";
+import '../../Components/pages/AsphaltPServicePage.css'
+import asphalt05 from '../../photos/asphalt05.jpeg'
+import asphalt06 from '../../photos/asphalt06.jpeg'
 import axios from "axios";
+import { useState } from "react";
 
-export default function Services(){
+export default function AsphaltService(){
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -56,20 +55,20 @@ export default function Services(){
 
 
     return(
-        <div className="services-page-container">
-            <div className="about-section-container-service">
-                <h2 className="h2-service"><div className="hide-text">Our</div> Services</h2>
+        <div className="asphalt-page-container">
+            {/* <h2>Asphalt Paving Service</h2> */}
+            <div className="about-section-container">
+                <h2 className="h2-asphalt">Asphalt Paving</h2>
+                <img src={asphalt06} alt="" width="700" height="500" /><br/><br/>
                 <br />
-                <p className="p-service"><span className="hide-text">What we offer!</span> <br /> <br/>
-                <p className="hide-text">At First Class Paving, we offer a comprehensive range of top-quality paving and construction services designed to meet the diverse needs of our residential, commercial, and industrial clients. Our commitment to excellence and customer satisfaction sets us apart in the industry. Explore our key services below to see how we can transform your property.</p><br/><br/>
-                    <span>Asphalt Paving</span><br/><br />
-                    Our asphalt paving service is ideal for creating smooth, durable, and aesthetically pleasing surfaces. Whether you need a new driveway, parking lot, or road, our experienced team uses the highest quality materials and state-of-the-art equipment to ensure long-lasting results. From initial design to final installation, we handle every step of the process with precision and care.<br/><br/>
-                    <img src={asphalt02} alt="" width="400" height="300" /><br/><br/>
-                    <span>Concrete Services</span><br/><br/>
-                    Our concrete services encompass a wide range of applications, including driveways, sidewalks, foundations, and decorative concrete work. We combine our extensive experience with the best materials to deliver strong, durable, and visually appealing concrete solutions. Whether you need a new installation or repairs and maintenance, we are dedicated to exceeding your expectations with our craftsmanship and attention to detail.<br/><br/>
-                    <span>Sealcoating</span><br/><br />
-                    Protect and enhance the appearance of your asphalt surfaces with our professional sealcoating services. Sealcoating acts as a barrier against weather, UV rays, and chemical spills, extending the lifespan of your pavement. Our expert team applies high-quality sealants to keep your surfaces looking new and performing at their best. Regular sealcoating is an investment that pays off by maintaining the integrity and beauty of your pavement.<br/><br/>
-                    <span>... And More</span><br/><br />
+                <p><span>Transforming Your Property with Expert Asphalt Paving</span> <br /> <br/>
+                At First Class Paving, we specialize in providing top-tier asphalt paving services designed to meet the diverse needs of our clients. Whether you're looking to install a new asphalt driveway, parking lot, or walkway, our skilled team is here to deliver exceptional results that stand the test of time.<br/><br/>
+                    <span>Why Choose Our Asphalt Paving Services?</span><br/><br />
+                    <span className='span-details'>Durability and Longevity<br/></span> Our asphalt paving solutions are built to last. Using only the highest quality materials and advanced paving techniques, we ensure that your pavement remains durable, smooth, and visually appealing for years to come.<br/><br/>
+                    <span className='span-details'>Cost-Effective Solutions<br/></span> Asphalt paving is not only durable but also cost-effective. It requires less maintenance over time compared to other paving materials, making it an economical choice for both residential and commercial projects.<br/><br/>
+                    <span className='span-details'>Quick Installation<br/></span> We understand the importance of time and efficiency. Our experienced team works diligently to complete your asphalt paving project promptly without compromising on quality, ensuring minimal disruption to your daily routine or business operations.<br/><br/>
+                    <span className='span-details'>Customizable Options<br /></span> Every property is unique, and so are its paving needs. We offer customizable asphalt paving solutions tailored to your specific requirements, whether it's a small residential driveway or a large commercial parking lot.<br/><br/>
+                    <span className='span-details'>Eco-Friendly Practices<br /></span> At First Class Paving, we are committed to environmentally friendly practices. Asphalt is a recyclable material, and we make every effort to minimize waste and promote sustainability in our paving projects.<br/><br/>
                 </p>
             </div>
             <div className="form-section-container">

@@ -1,13 +1,10 @@
 import React from "react";
 import '../../App.css';
-import './Services.css'
-import asphalt02 from "../../photos/asphalt02.jpeg"
-import asphalt04 from "../../photos/asphalt04.jpeg"
-import concrete03 from '../../photos/concrete03.jpeg'
+import '../../Components/pages/SealcoatServicePage.css'
 import { useState } from "react";
 import axios from "axios";
 
-export default function Services(){
+export default function SealcoatService(){
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -55,21 +52,26 @@ export default function Services(){
 
 
 
+
+
     return(
-        <div className="services-page-container">
-            <div className="about-section-container-service">
-                <h2 className="h2-service"><div className="hide-text">Our</div> Services</h2>
+        <div className="sealcoat-page-container">
+            {/* <h2>Asphalt Paving Service</h2> */}
+            <div className="about-section-container">
+                <h2 className="h2-sealcoat">Sealcoat</h2>
                 <br />
-                <p className="p-service"><span className="hide-text">What we offer!</span> <br /> <br/>
-                <p className="hide-text">At First Class Paving, we offer a comprehensive range of top-quality paving and construction services designed to meet the diverse needs of our residential, commercial, and industrial clients. Our commitment to excellence and customer satisfaction sets us apart in the industry. Explore our key services below to see how we can transform your property.</p><br/><br/>
-                    <span>Asphalt Paving</span><br/><br />
-                    Our asphalt paving service is ideal for creating smooth, durable, and aesthetically pleasing surfaces. Whether you need a new driveway, parking lot, or road, our experienced team uses the highest quality materials and state-of-the-art equipment to ensure long-lasting results. From initial design to final installation, we handle every step of the process with precision and care.<br/><br/>
-                    <img src={asphalt02} alt="" width="400" height="300" /><br/><br/>
-                    <span>Concrete Services</span><br/><br/>
-                    Our concrete services encompass a wide range of applications, including driveways, sidewalks, foundations, and decorative concrete work. We combine our extensive experience with the best materials to deliver strong, durable, and visually appealing concrete solutions. Whether you need a new installation or repairs and maintenance, we are dedicated to exceeding your expectations with our craftsmanship and attention to detail.<br/><br/>
-                    <span>Sealcoating</span><br/><br />
-                    Protect and enhance the appearance of your asphalt surfaces with our professional sealcoating services. Sealcoating acts as a barrier against weather, UV rays, and chemical spills, extending the lifespan of your pavement. Our expert team applies high-quality sealants to keep your surfaces looking new and performing at their best. Regular sealcoating is an investment that pays off by maintaining the integrity and beauty of your pavement.<br/><br/>
-                    <span>... And More</span><br/><br />
+                <p><span>Protect and Enhance Your Pavement with Professional Sealcoating</span> <br /> <br/>
+                At First Class Paving, we offer premium sealcoating services designed to protect and enhance the longevity of your asphalt surfaces. Sealcoating not only adds a layer of protection but also revitalizes the appearance of your pavement, making it look new and well-maintained.<br/><br/>
+                    <span>Why Choose Our Sealcoating Services?</span><br/><br />
+                    <span className='span-details'>Prolonged Pavement Life<br/></span> Sealcoating acts as a protective barrier against the elements, preventing damage from UV rays, water, oil, and other harmful substances. This extends the lifespan of your asphalt surfaces, saving you money on future repairs and replacements.<br/><br/>
+                    <span className='span-details'>Enhanced Appearance<br/></span> Over time, asphalt can become faded and worn. Our sealcoating services restore the deep, rich black color of your pavement, significantly improving the curb appeal of your property.<br/><br/>
+                    <span className='span-details'>Environmental Protection<br/></span> Sealcoating helps prevent harmful substances like oil and gas from penetrating the asphalt and contaminating the environment. Our environmentally friendly sealcoating solutions prioritize sustainability and safety.<br/><br/>
+                    <span>Benefits of Regular Sealcoating</span><br/><br />
+                    <span className='span-details'> Protection Against Weather Damage<br/></span> Shield your pavement from the damaging effects of sun, rain, snow, and ice.<br/><br/>
+                    <span className='span-details'>Improved Aesthetics<br/></span> Keep your asphalt looking new and well-maintained with a fresh, black finish.<br/><br/>
+                    <span className='span-details'>Increased Property Value<br/></span> Well-maintained pavement enhances the overall value and appearance of your property.<br/><br/>
+                    <span className='span-details'>Preventative Maintenance<br/></span> Avoid costly repairs by addressing minor issues before they become major problems.<br/><br/>
+                    <span>Contact Us Now</span><br/><br />
                 </p>
             </div>
             <div className="form-section-container">

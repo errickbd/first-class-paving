@@ -1,42 +1,44 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
-import Logo from '../FCPLogo.jpg'
+import Logo from '../FCPLogo.jpg';
+import './Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true)
+    const [button, setButton] = useState(true);
+    const [dropdown, setDropdown] = useState(false); // State for dropdown menu
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
- 
-
 
     const showButton = () => {
-        if (window.innerWidth <= 960){
+        if (window.innerWidth <= 960) {
             setButton(false);
-        }
-        else{
+        } else {
             setButton(true);
         }
-    }
+    };
 
-    useEffect(() =>{
+    useEffect(() => {
         showButton();
-    },[])
-    
-    window.addEventListener("resize", showButton)
+    }, []);
 
-    return(
+    window.addEventListener("resize", showButton);
+
+    const toggleDropdown = () => {
+        setDropdown(!dropdown);
+    };
+
+    return (
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-                        {/* LOGO <i className="fab fa-typo3"></i>  */}
                         <img src={Logo} className='logo' alt='First Class Paving Logo'/>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
+                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
@@ -49,29 +51,47 @@ function Navbar() {
                                 ABOUT
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item dropdown'
+                            // onClick={toggleDropdown}
+                            onMouseLeave={toggleDropdown}
+                        >
+                            <Link to='/services' className='nav-links dropdown-toggle' onClick={closeMobileMenu}>
                                 SERVICES
                             </Link>
+                            {dropdown && (
+                                <div className='dropdown-menu'>
+                                    <Link to='/asphalt_paving' className='dropdown-link dropdown-item' onClick={closeMobileMenu}>Asphalt Paving</Link>
+                                    <Link to='/concrete' className='dropdown-link dropdown-item' onClick={closeMobileMenu}>Concrete</Link>
+                                    <Link to='/sealcoat' className='dropdown-link dropdown-item' onClick={closeMobileMenu}>Sealcoat</Link>
+                                </div>
+                            )}
                         </li>
                         <li className='nav-item'>
                             <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
                                 GALLERY
                             </Link>
                         </li>
+                        <li className='nav-item-contact-mobile'>
+                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                                Contact
+                            </Link>
+                        </li>
                         <li className='nav-item'>
-                            <Link to='/quote' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/quote' className='nav-links-mobile get-quote-btn' onClick={closeMobileMenu}>
                                 GET A QUOTE
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonstyle='btn--outline'>GET A QUOTE</Button>}
+                    <li className='nav-item-contact'>
+                        <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                            Contact
+                        </Link>
+                    </li>
+                    {button && <Button buttonstyle='btn--outline' className='get-quote-btn'>GET A QUOTE</Button>}
                 </div>
             </nav>
-
         </>
-    )
+    );
 }
 
-
-export default Navbar
+export default Navbar;

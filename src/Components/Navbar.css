@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Darker+Grotesque:wght@300..900&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Darker+Grotesque:wght@300..900&family=Medula+One&family=Six+Caps&display=swap');
+
+
 .navbar {
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(78, 78, 78) 100%);
     height: 80px;
@@ -52,6 +58,18 @@
    
     
   }
+
+  .nav-item-contact{
+    position: relative;
+    bottom:37.5px;
+    right: 21px
+  }
+
+  /* .nav-item-contact-mobile{
+    display: none;
+    
+
+  } */
   
   .nav-links {
     color: #ffffff;
@@ -61,6 +79,8 @@
     height: 100%;
     align-items:flex-end;
     position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16pt;
     
   }
   
@@ -93,9 +113,45 @@
     height:3.5rem;
   }
 
+  .get-quote-btn{
+    color: #f5a127;
+  }
+
+  .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    background-color: #333;
+    border-radius: 0 0 10px 10px;
+    z-index: 9999;
+}
+
+.dropdown-link {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+.dropdown-link:hover {
+    background-color: #575757;
+}
+
+
+
+
   @media (min-width: 960px){
+
+    .nav-item-contact-mobile{
+      display: none;
+      
+  
+    }
+
+
     .nav-links {
-      color: rgb(251, 211, 124);
+      color: #f5a127;
       display: flex;
       text-decoration: none;
       padding: 0.5rem 1rem;
@@ -207,5 +263,18 @@
       height:3.5rem;
       
     }
+
+    .dropdown-menu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      background-color: #333;
+      border-radius: 0 0 10px 10px;
+      z-index: 9999;
+      visibility: hidden;
+  }
+
+    
     
   }
