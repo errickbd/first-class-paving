@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/first-class-paving/static/css/main.c18ca24f.css",
-    "main.js": "/first-class-paving/static/js/main.5cf9393f.js",
+    "main.css": "/first-class-paving/static/css/main.caa38c59.css",
+    "main.js": "/first-class-paving/static/js/main.fd5d6cce.js",
     "static/media/construction01.mp4": "/first-class-paving/static/media/construction01.505288c9e26891872fa0.mp4",
     "static/media/FCPLogo.jpg": "/first-class-paving/static/media/FCPLogo.e42260aa7076e810c7cd.jpg",
+    "static/media/driveway01.jpeg": "/first-class-paving/static/media/driveway01.1fe9525953fdc1250d00.jpeg",
+    "static/media/fcporangelogo.jpeg": "/first-class-paving/static/media/fcporangelogo.d4325090910a30bcd32c.jpeg",
+    "static/media/asphalt02.jpeg": "/first-class-paving/static/media/asphalt02.8afac94725edd1948b9c.jpeg",
+    "static/media/asphalt05.jpeg": "/first-class-paving/static/media/asphalt05.1cb3bfd8523e20748f20.jpeg",
+    "static/media/asphalt06.jpeg": "/first-class-paving/static/media/asphalt06.63fca451b56eae1278ef.jpeg",
+    "static/media/concrete07.jpeg": "/first-class-paving/static/media/concrete07.bdc4bfcda34dae857243.jpeg",
+    "static/media/concrete03.jpeg": "/first-class-paving/static/media/concrete03.20be281978d9444218b4.jpeg",
+    "static/media/asphalt04.jpeg": "/first-class-paving/static/media/asphalt04.4dd11c4f781a0326daac.jpeg",
     "index.html": "/first-class-paving/index.html",
-    "main.c18ca24f.css.map": "/first-class-paving/static/css/main.c18ca24f.css.map",
-    "main.5cf9393f.js.map": "/first-class-paving/static/js/main.5cf9393f.js.map"
+    "main.caa38c59.css.map": "/first-class-paving/static/css/main.caa38c59.css.map",
+    "main.fd5d6cce.js.map": "/first-class-paving/static/js/main.fd5d6cce.js.map"
   },
   "entrypoints": [
-    "static/css/main.c18ca24f.css",
-    "static/js/main.5cf9393f.js"
+    "static/css/main.caa38c59.css",
+    "static/js/main.fd5d6cce.js"
   ]
 }
