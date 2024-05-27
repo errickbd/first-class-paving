@@ -61,8 +61,10 @@
 
   .nav-item-contact{
     position: relative;
-    bottom:37.5px;
-    right: 21px
+    bottom:25px;
+    right: 21px;
+    
+    
   }
 
   /* .nav-item-contact-mobile{
@@ -275,6 +277,9 @@
       visibility: hidden;
   }
 
+  .contact-ol{
+    visibility: hidden;
+  }
     
     
   }

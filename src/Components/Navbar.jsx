@@ -82,11 +82,13 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
+                    <ol className='contact-ol' style={{color: 'rgb(65, 65, 65)'}}>
                     <li className='nav-item-contact'>
                         <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                             Contact
                         </Link>
                     </li>
+                    </ol>
                     {button && <Button buttonstyle='btn--outline' className='get-quote-btn'>GET A QUOTE</Button>}
                 </div>
             </nav>

@@ -187,11 +187,17 @@ span{
     }
 
     .about-section-container{
-        width: 90%;
+        width: 100%;
         margin: 0px;
         height: 1000px;
         position: relative;
-        /* left: 150px; */
+        left: 250px;
+        display: flex;
+        justify-content: center ; 
+        align-items: center;
+        align-content: center;
+        scale:.95;
+
        
         /* top: 500px; */
 

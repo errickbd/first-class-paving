@@ -181,6 +181,20 @@ p{
         height: 1700px;
         
     }
+
+    .about-section-container-contact{
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width:40%;
+        font-size: larger;
+        color: aliceblue;
+        margin-top: 0px;
+        
+    }
     /* .about-section-container-quote{
         visibility: hidden;
         display: none;
@@ -216,7 +230,7 @@ p{
     .h2-contact{
         position: relative;
         top:30px;
-        right:45px
+        right:145px
     }
 
     .contact-map{

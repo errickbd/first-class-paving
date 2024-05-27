@@ -62,7 +62,7 @@ export default function About(){
             <p className="p-about"><span>Welcome to First Class Paving!</span> <br /> <br/>
                 At First Class Paving, we are dedicated to providing top-quality pavement solutions tailored to meet your specific needs. With years of experience in the industry, we take pride in our craftsmanship, attention to detail, and commitment to customer satisfaction.
                 Our Story
-                Founded in [Year], First Class Paving has quickly established itself as a leading provider of pavement services in the Chicagoland area and beyond. Our journey began with a simple goal: to deliver reliable, durable, and aesthetically pleasing pavement solutions to residential, commercial, and industrial clients.<br/><br/>
+                Founded in 2021, First Class Paving has quickly established itself as a leading provider of pavement services in the Chicagoland area and beyond. Our journey began with a simple goal: to deliver reliable, durable, and aesthetically pleasing pavement solutions to residential, commercial, and industrial clients.<br/><br/>
                 <span>What Sets Us Apart</span><br/><br />
                 <span className='span-details'>Expertise:</span> Our team consists of skilled professionals with extensive experience in pavement installation, repair, and maintenance.<br/>
                 <span className='span-details'>Quality Materials:</span> We use only the highest quality materials and state-of-the-art equipment to ensure long-lasting results.<br/>
