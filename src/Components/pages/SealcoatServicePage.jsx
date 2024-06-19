@@ -16,9 +16,9 @@ export default function SealcoatService(){
         e.preventDefault();
 
         // emailjs //
-        const serviceId = 'service_d8p4fal';
-        const templateId = 'template_wfglo78';
-        const publicKey = 'gvYriDN2IKVG1l7b2';
+        const serviceId = 'service_xjskkcc';
+        const templateId = 'template_q476q4s';
+        const publicKey = 'NqrEEfI3SYZf_NIS6';
 
 
 

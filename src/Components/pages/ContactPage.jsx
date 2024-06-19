@@ -16,9 +16,9 @@ export default function ContactPage(){
         e.preventDefault();
 
         // emailjs //
-        const serviceId = 'service_d8p4fal';
-        const templateId = 'template_wfglo78';
-        const publicKey = 'gvYriDN2IKVG1l7b2';
+        const serviceId = 'service_xjskkcc';
+        const templateId = 'template_q476q4s';
+        const publicKey = 'NqrEEfI3SYZf_NIS6';
 
 
 
@@ -77,8 +77,8 @@ export default function ContactPage(){
         </div>
             <div className="location-text">
                 <p><span>Location</span> <br /> 
-                27764 Volo Village Rd Ste. H-3,<br />
-                Volo, IL 60073<br />
+                11 N Skokie Hwy Ste. 111B,<br />
+                Lake Bluff, IL 60044<br />
                 United States
                     
                 </p>
