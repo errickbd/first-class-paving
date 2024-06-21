@@ -77,7 +77,7 @@ function Footer(){
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2 className="h2-footer">Navigation</h2>
-                        <Link to='/home'>Home</Link>
+                        <Link to='/'>Home</Link>
                         <Link to='/about'>About</Link>
                         <Link to='/services'>Services</Link>
                         <Link to='/gallery'>Gallery</Link>
