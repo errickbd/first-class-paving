@@ -206,7 +206,8 @@
       width: 100%;
       display: table;
       position: relative;
-      bottom: 225px;
+      bottom: 150px;
+      
     }
   
     .nav-links:hover {
@@ -251,7 +252,8 @@
       border: 1px solid #fff;
       transition: all 0.3s ease-out;
       position: relative;
-      bottom: 225px;
+      bottom: 150px;
+      
     }
   
     .nav-links-mobile:hover {
