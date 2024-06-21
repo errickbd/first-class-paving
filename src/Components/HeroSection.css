@@ -181,7 +181,7 @@ span{
     
     .hero-banner-right{
         padding-right: 15px;
-        scale:.8;
+        scale:.75;
     }
     .hero-banner-right > h1{
         color: #f5a127;
@@ -195,7 +195,7 @@ span{
     }
     .hero-banner-left{
         padding-right: 15px;
-        scale:.8;
+        scale:.75;
         /* position: relative;
         right:800px; */
 
@@ -226,7 +226,7 @@ span{
         left: 10%;
         top: 70px;
         margin-bottom: 35px;
-        scale:.9;
+        scale:.85;
     }
     
     .services-gist{
@@ -240,7 +240,7 @@ span{
         left: 10%;
         top: 70px;
         margin-bottom: 35px;
-        scale:.9;
+        scale:.85;
     }
     .testimonials-gist{
         position: relative;
@@ -252,7 +252,7 @@ span{
         border: 5px solid rgb(99, 99, 99);
         left: 10%;
         top: 70px;
-        scale:.9;
+        scale:.85;
     }
     .home-section01{
         position: relative;
@@ -269,7 +269,7 @@ span{
         
     }
     .home-logo{
-        scale: .8;
+        scale: .75;
     }
    
 

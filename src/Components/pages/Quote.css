@@ -188,6 +188,7 @@ p{
         padding-bottom: 75px;
         position: relative;
         bottom: 50px;
+        scale:.95;
         /* padding-left: 300px;
         padding-right: 300px; */
     }
