@@ -102,14 +102,14 @@ export default function Gallery(){
 
 
     const images = [
-          {
-            original: image01,
-            thumbnail: image01,
-          },
-          {
-            original: image02,
-            thumbnail: image02,
-          },
+          // {
+          //   original: image01,
+          //   thumbnail: image01,
+          // },
+          // {
+          //   original: image02,
+          //   thumbnail: image02,
+          // },
           {
             original: image03,
             thumbnail: image03,
