@@ -87,7 +87,7 @@ function Footer(){
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items footer-link-items2">
                         <h2 className="h2-footer">Social Media</h2>
-                        <Link target='_blank' to='https://www.instagram.com/'>Instagram</Link>
+                        <Link target='_blank' to='https://www.instagram.com/firstclasspaving/?igsh=aHkxYjI4eTM3YjNv'>Instagram</Link>
                         <Link target='_blank' to='https://www.facebook.com/FCP.lakecountyil/?_rdr'>Facebook</Link>
                         <Link target='_blank' to='https://www.youtube.com/'>YouTube</Link>
                     </div>
@@ -104,7 +104,7 @@ function Footer(){
                     </div>
                     <small className="website-rights">First Class Paving © 2024</small>
                     <div className="social-icons">
-                        <Link to='https://www.instagram.com/' className="social-icon-link instagram" target='_blank' aria-label="Instagram">
+                        <Link to='https://www.instagram.com/firstclasspaving/?igsh=aHkxYjI4eTM3YjNv' className="social-icon-link instagram" target='_blank' aria-label="Instagram">
                             <i className="fab fa-instagram"></i>
                         </Link>
                         <Link to='https://www.facebook.com/FCP.lakecountyil/?_rdr' className="social-icon-link facebook" target='_blank' aria-label="Facebook">
