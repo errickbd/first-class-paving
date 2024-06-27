@@ -4,7 +4,8 @@ import '../../Components/pages/AsphaltPServicePage.css'
 // import asphalt05 from '../../photos/asphalt05.jpeg'
 import asphalt06 from '../../photos/asphalt06.jpeg'
 import axios from "axios";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export default function AsphaltService(){
 
@@ -13,9 +14,15 @@ export default function AsphaltService(){
     const [phone, setPhone] = useState('')
     const [address, setAddress] = useState('')
     const [message, setMessage] = useState('')
+    const recaptchaRef = useRef();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        // captcha //
+        const token = await recaptchaRef.current.executeAsync();
+        recaptchaRef.current.reset();
+
 
         // emailjs //
         const serviceId = 'service_xjskkcc';
@@ -35,6 +42,7 @@ export default function AsphaltService(){
                 client_phone:phone,
                 client_address:address,
                 message: message,
+                "g-recaptcha-response": token, // Add the reCAPTCHA token to your parameters
             }
         }
 
@@ -94,6 +102,11 @@ export default function AsphaltService(){
                     <label for="exampleFormControlTextarea1">How can we help? </label>
                     <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="form-description" id="form-description" rows="60"></textarea>
                 </div>
+                <ReCAPTCHA
+                    ref={recaptchaRef}
+                    size="invisible"
+                    sitekey="6Ld2QgIqAAAAAEsxYXtnhFaAcsF_ugjO_vMi3XDN"
+                />
                 <div class="form-group-btn">
                     <button type="submit" class="form-btn">Submit</button>
                 </div>
