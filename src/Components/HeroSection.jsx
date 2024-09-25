@@ -28,9 +28,17 @@ function HeroSection() {
                         <Button className='btns service-btn' buttonstyle='btn--outline' buttonSize='btn--large'>Get Quote</Button>
                     </div> 
                 </div>
+                <div className='hero-banner-badges'>
+                <a className='badge' href="http://www.homeadvisor.com/rated.FirstClassPavingInc.131199286.html"><img alt="Rated & Reviewed HomeAdvisor Pro" src="http://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=131199286&key=d4153a97517a3f81022f9a83b9944843" /></a>
+                <a className='badge' href="http://www.homeadvisor.com/c.Paving.Lake_Bluff.IL.-12055.html#spid=131199286"><img alt="First Class Paving, Inc. is a HomeAdvisor Top Rated Pro" src="http://www.homeadvisor.com/images/sp-badges/toprated-solid-border.png?sp=131199286&key=d4153a97517a3f81022f9a83b9944843" /></a>
+                <a className='badge' href="http://www.homeadvisor.com/c.Paving.Lake_Bluff.IL.-12055.html#spid=131199286"><img alt="First Class Paving, Inc. - HomeAdvisor Elite Service" src="http://www.homeadvisor.com/images/sp-badges/elite-solid-border.png?sp=131199286&key=d4153a97517a3f81022f9a83b9944843" /></a>
+                </div>
             </div>
             <div className='home-section01'>
-               <img src={Logo} className='home-logo' alt='First Class Paving Logo'/>
+                <img src={Logo} className='home-logo' alt='First Class Paving Logo'/>
+                <a className='badge-mobile' href="http://www.homeadvisor.com/rated.FirstClassPavingInc.131199286.html"><img alt="Rated & Reviewed HomeAdvisor Pro" src="http://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=131199286&key=d4153a97517a3f81022f9a83b9944843" /></a>
+                <a className='badge-mobile' href="http://www.homeadvisor.com/c.Paving.Lake_Bluff.IL.-12055.html#spid=131199286"><img alt="First Class Paving, Inc. is a HomeAdvisor Top Rated Pro" src="http://www.homeadvisor.com/images/sp-badges/toprated-solid-border.png?sp=131199286&key=d4153a97517a3f81022f9a83b9944843" /></a>
+                <a className='badge-mobile' href="http://www.homeadvisor.com/c.Paving.Lake_Bluff.IL.-12055.html#spid=131199286"><img alt="First Class Paving, Inc. - HomeAdvisor Elite Service" src="http://www.homeadvisor.com/images/sp-badges/elite-solid-border.png?sp=131199286&key=d4153a97517a3f81022f9a83b9944843" /></a>
                <div className='home-info'>
                     <div className='about-gist'>
                         <h1><span>First Class Guarantee</span></h1>
@@ -42,8 +50,8 @@ function HeroSection() {
                     </div>
                     <div className='testimonials-gist'>
                         <h1><span>Our Client Says</span></h1>
-                        <p>"Best company in the area. Definitely would Recommend" <br />
-                        -Anonymous
+                        <p>"First Class..the name says it all. Quality work and worth every penny." <br />
+                        -Ken B.
                         </p>
                     </div>   
                </div>
